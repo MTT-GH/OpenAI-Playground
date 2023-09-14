@@ -19,7 +19,6 @@ Changes have been made to the original source code to accommodate the use of [Az
 
 ### OPTION 1: Launch in Github Codespaces
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/shirkey/deeplearning-ai-chatgpt-prompt-eng-azure-openai)
-- Copy `.env.sample` to `.env` with the specific configuration matching your Azure Deployment, including Endpoint URLs and Keys
 - Run the notebooks:
     - `jupyter notebook` then select the specific tutorial notebook (eg l2 -> l8)
 - Watch the course videos and follow along with each related notebook
