@@ -6,3 +6,5 @@ redlines
 panel
 jupyter_bokeh
 azure-cognitiveservices-speech
+azure-ai-formrecognizer 
+azure.core
