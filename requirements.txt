@@ -5,3 +5,4 @@ python-dotenv
 redlines
 panel
 jupyter_bokeh
+azure-cognitiveservices-speech

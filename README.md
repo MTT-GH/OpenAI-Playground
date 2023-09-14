@@ -2,7 +2,7 @@
 
 ## Prepared to run in GitHub Codespace (also local devcontainer)
 
-Add the following secrets to the GitHub Repository (Codespaces), as they are going to be used in the Demos:
+Add the following secrets to the GitHub Repository (Codespaces), as they are going to be used in the Demos (**some demos may require more settings**):
 
 ![Alt text](Settings.png)
 
@@ -41,4 +41,4 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 
 ### Intermediate
 
-- [Speech Summarizing, OpenAI + Azure Speech AI]() taken & modified from https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos/Azure%20Open%20AI%20-%20Demo%204%20Speech%20summarizing.ipynb
+- [Speech Summarizing, OpenAI + Azure Speech AI](OpenAI/Speech-Summarize/Azure Open AI - Demo 4 Speech summarizing.ipynb) taken & modified from https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos/Azure%20Open%20AI%20-%20Demo%204%20Speech%20summarizing.ipynb
