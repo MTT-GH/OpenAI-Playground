@@ -13,6 +13,8 @@ Add the following secrets to the GitHub Repository (Codespaces), as they are goi
 
 ## Demos 
 
+- The GitHub codespace automatically installs all needed modules when launched, but you can also find them in the *requirements.txt* file.
+    > WARNING: you can also execute "pip3 install --user -r requirements.txt" if the libraries are missing for some reason.
 - For the jupiter Notebooks, open the file and **select kernel** before running. Configuration can be given in two ways:
 
     1. Using GitHub Codespace and secrets (as show above)
@@ -42,3 +44,4 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 ### Intermediate
 
 - [Speech Summarizing with OpenAI and Azure Speech AI](OpenAI/Speech-Summarize/Speech-summarizing.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos/Azure%20Open%20AI%20-%20Demo%204%20Speech%20summarizing.ipynb)
+- [Open AI and Azure Document Intelligence]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos/Azure%20Open%20AI%20-%20Demo%204%20Speech%20summarizing.ipynb)
