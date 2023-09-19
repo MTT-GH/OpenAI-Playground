@@ -159,3 +159,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 OpenAI/DeepLearningAI-Course/test.py
+OpenAI/Movie-recommender/embeddings/movies.pkl
