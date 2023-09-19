@@ -20,7 +20,8 @@
 		"vscode": {
 			"extensions": [
 				"GitHub.copilot",
-				"ms-toolsai.jupyter"
+				"ms-toolsai.jupyter",
+				"GitHub.copilot-chat"
 			]
 		}
 	},
