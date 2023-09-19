@@ -81,4 +81,7 @@ After installing Git LFS, initialize it for your Git repositories by running:
 Track the large files in your repository as needed using git lfs track, as mentioned in the previous response.
 
     git lfs track "*.xlsx"
+    
     git lfs track "*.pkl"
+
+    git add .gitattributes
