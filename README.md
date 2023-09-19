@@ -46,3 +46,8 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 - [Speech Summarizing with OpenAI and Azure Speech AI](OpenAI/Speech-Summarize/Speech-summarizing.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
 - [Open AI and Azure Document Intelligence](OpenAI/Document-Intelligence/Document-Intelligence.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
 - [Gradio webapp with Azure ChatGPT]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
+- [Movie recommender with Azure Open AI & Azure Cognitive Search]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
+    - Part 1:  Embeddings generation with Azure Open AI and Azure Cognitive Search ingestion
+    - Part 2: Search examples
+    - Part 3: Recommandations
+    ![Movie Recommender](OpenAI/Movie-recommender/architecture.png)
