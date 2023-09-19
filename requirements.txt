@@ -9,3 +9,10 @@ azure-cognitiveservices-speech
 azure-ai-formrecognizer 
 azure.core
 gradio
+azure-search-documents==11.4.0b9
+youtube-search-python
+movieposters
+tiktoken
+plotly
+scipy
+scikit-learn
