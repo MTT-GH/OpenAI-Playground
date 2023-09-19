@@ -51,3 +51,33 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
     - Part 2: Search examples
     - Part 3: Recommandations
     ![Movie Recommender](OpenAI/Movie-recommender/architecture.png)
+
+
+### WARNING:  If you get issues related to Large Files in Git run the following in the Codespace Terminal
+
+1. Add Git LFS Repository:
+You'll need to add the Git LFS repository to your package manager's sources list. Open a terminal and run the following commands:
+
+    curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+    This command fetches and runs a script that adds the Git LFS repository to your package manager.
+
+1. Update Package Lists:
+After adding the repository, update your package lists:
+
+    sudo apt-get update
+
+1. Install Git LFS:
+Now that the repository is added and the package lists are updated, you can install Git LFS:
+
+
+    sudo apt-get install git-lfs
+1. Initialize Git LFS:
+After installing Git LFS, initialize it for your Git repositories by running:
+
+
+    git lfs install
+
+1. Track Large Files:
+Track the large files in your repository as needed using git lfs track, as mentioned in the previous response.
+
+    git lfs track "*.xlsx"
