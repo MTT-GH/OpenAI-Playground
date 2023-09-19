@@ -48,6 +48,9 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 - [Gradio webapp with Azure ChatGPT]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
 - [Movie recommender with Azure Open AI & Azure Cognitive Search]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
     - Part 1:  Embeddings generation with Azure Open AI and Azure Cognitive Search ingestion
-    - Part 2: Search examples
+    - Part 2: Search examples 
+        - Section 3 search queries : vector, with filters, hybrid, semantic, ...
+        - Section 6 Mixes OpenAI GPT with Azure Search
+        - Section 7.2 **Runs a webapp with the solution!**
     - Part 3: Recommandations
     ![Movie Recommender](OpenAI/Movie-recommender/architecture.png)
