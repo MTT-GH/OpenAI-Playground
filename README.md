@@ -49,6 +49,9 @@ Azure%20Open%20AI%20quick%20demos)
     - Use Form Recognizer for Image to Text, and use "text-davinci" AOAI model to summarize.
 - [Gradio webapp with Azure ChatGPT, your own chatGPT website]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
 
+- [Use OpenAI with your own data]()
+
+
 ### Advanced
 
 - [Movie recommender with Azure Open AI & Azure Cognitive Search]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
