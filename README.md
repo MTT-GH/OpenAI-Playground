@@ -46,9 +46,9 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 - [Speech Summarizing with OpenAI and Azure Speech AI](OpenAI/Speech-Summarize/Speech-summarizing.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
 - [Open AI and Azure Document Intelligence (Form Recognizer)](OpenAI/Document-Intelligence/Document-Intelligence.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
     - Use Form Recognizer for Image to Text, and use "text-davinci" AOAI model to summarize.
-- [Gradio webapp with Azure ChatGPT, your own chatGPT website]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
+- [Gradio webapp with Azure ChatGPT, your own chatGPT website](OpenAI/Gradio-ChatBot-WebApp/Gradio-WebApp-ChatGPT.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
 
-- [Use OpenAI with your own data]()
+- [Use OpenAI with your own data](OpenAI/OpenAI-YourData/README.md)
 
 
 ### Advanced

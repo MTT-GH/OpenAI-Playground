@@ -7,4 +7,5 @@ By the end of the instructions your model should give customized answer based on
 ![Cusotmized reply](custom-aoai-reply.png)
 
 # Call your custom data model using Python
-TODO
+ 
+ Go to the following Notebook [custom-data-aoai.ipynb](custom-data-aoai.ipynb)
