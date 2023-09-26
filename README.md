@@ -50,10 +50,12 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 
 - [Use OpenAI with your own data](OpenAI/OpenAI-YourData/README.md)
 
+- [Azure Computer Vision and Langchain](OpenAI/ComputerVision-Langchain/computer-vision-langchain.ipynb) taken and modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
+
 
 ### Advanced
 
-- [Movie recommender with Azure Open AI & Azure Cognitive Search]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/blob/main/Azure%20Open%20AI%20quick%20demos)
+- [Movie recommender with Azure Open AI & Azure Cognitive Search]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
     - Part 1:  Embeddings generation with Azure Open AI and Azure Cognitive Search ingestion
     - Part 2: Search examples 
         - Section 3 search queries : vector, with filters, hybrid, semantic, ...

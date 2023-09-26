@@ -17,3 +17,5 @@ plotly
 scipy
 scikit-learn
 openpyxl
+azure-ai-vision
+langchain
