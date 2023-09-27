@@ -19,3 +19,5 @@ scikit-learn
 openpyxl
 azure-ai-vision
 langchain
+# azure
+azure-identity
