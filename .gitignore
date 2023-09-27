@@ -160,3 +160,14 @@ cython_debug/
 #.idea/
 OpenAI/DeepLearningAI-Course/test.py
 OpenAI/Movie-recommender/embeddings/movies.pkl
+
+# Ignore Jupyter Notebook checkpoint files
+OpenAI/**/.ipynb_checkpoints/
+
+# Ignore Jupyter Notebook output files
+OpenAI/**/*.ipynb_checkpoints
+OpenAI/**/*.ipynb_checkpoints/*
+
+# Ignore Jupyter Notebook kernel connection files
+OpenAI/**/*.ipynb-meta
+
