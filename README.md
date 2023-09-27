@@ -26,6 +26,8 @@ For **Azure OpenAI**
 - AZURE_OPENAI_ENDPOINT
 - AZURE_OPENAI_MODEL_CHAT: In my case I used a deployment of "gpt-35-turbo"
 - AZURE_OPENAI_MODEL_CHAT_VERSION : in my case I used "2023-03-15-preview"
+- OPENAI_ADA_EMBEDDING_DEPLOYMENT_NAME Your "text-embedding-ada-002" model deployment name
+- OPENAI_ADA_EMBEDDING_MODEL_NAME = text-embedding-ada-002
 
 For **Azure Search**
 - AZURE_SEARCH_ADMIN_KEY
