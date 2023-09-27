@@ -1,1 +1,1 @@
-*.ipynb filter=jupyter_clean
+OpenAI/**/*.ipynb filter=jupyter_clean
