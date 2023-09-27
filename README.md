@@ -45,11 +45,11 @@ For **Azure Speech**
 
 ## Demos 
 
-- The GitHub codespace automatically installs all needed modules when launched, but you can also find them in the *requirements.txt* file.
+- The GitHub codespace automatically installs all needed modules when launched, but you can also find them in the **requirements.txt** file.
     > WARNING: you can also execute "pip3 install --user -r requirements.txt" if the libraries are missing for some reason.
-- For the jupiter Notebooks, open the file and **select kernel** before running. Configuration can be given in two ways:
+- For the jupiter Notebooks, open the file and **select kernel** before running (**python 3.11 is provided**). Configuration can be given in two ways:
 
-    1. Using GitHub Codespace and secrets (as show above)
+    1. Using GitHub Codespace and secrets ( **PREFERRED**, as show above)
     2. Provide an ".env" file (commented in many files)
 
 ### Basics 
