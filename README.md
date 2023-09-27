@@ -95,3 +95,5 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
         - Section 7.2 **Runs a webapp with the solution!**
     - Part 3: Recommandations
     ![Movie Recommender](OpenAI/Movie-recommender/architecture.png)
+
+- [Code Analysis with with Langchain + Azure OpenAI + Azure Cognitive Search (vector store)](OpenAI/CodeAnalysis-Langchain-AOAI-Search) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
