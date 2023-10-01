@@ -89,8 +89,8 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 
 
 ### Advanced
-
-- [Movie recommender with Azure Open AI & Azure Cognitive Search]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
+- [Functions calling with Azure Open AI and Azure Search ]() TODO taken & modified from [repo](https://github.com/Azure-Samples/openai/tree/main/Basic_Samples/Functions)
+- [Movie recommender with Azure Open AI & Azure  Search]() taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
     - Part 1:  Embeddings generation with Azure Open AI and Azure Cognitive Search ingestion
     - Part 2: Search examples 
         - Section 3 search queries : vector, with filters, hybrid, semantic, ...
