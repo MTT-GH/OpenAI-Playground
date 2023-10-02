@@ -61,7 +61,7 @@ For **Azure Speech**
 
 ### 2. Launch Codespace
 
-> Note: GitHub offers up to 60 hours of codespace for free a month https://github.com/features/codespaces
+> Note: GitHub offers up to 60 hours of codespace execution for free a month https://github.com/features/codespaces
 
 From the forked repository, launch a GitHub codespace by clicking on **Code>Codespaces>Create codespace on main**:
 
