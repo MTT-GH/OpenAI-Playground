@@ -1,6 +1,6 @@
 # OpenAI-Playground
 
-Give a star to the repository to support the initiative :star:
+Please give a star to the repository to support the initiative :star:
 
 ## Available Demos 
 
