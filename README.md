@@ -40,9 +40,11 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 
 - [Azure Computer Vision and Langchain](OpenAI/ComputerVision-Langchain/computer-vision-langchain.ipynb) taken and modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
 
+- **TODO** [Functions calling with Azure Open AI and Azure Search ]()  taken & modified from [repo](https://github.com/Azure-Samples/openai/tree/main/Basic_Samples/Functions)
+
 
 ### Advanced
-- [Functions calling with Azure Open AI and Azure Search ]() TODO taken & modified from [repo](https://github.com/Azure-Samples/openai/tree/main/Basic_Samples/Functions)
+
 - [Movie recommender with Azure Open AI & Azure  Search](OpenAI/Movie-recommender/) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
     - Part 1:  Embeddings generation with Azure Open AI and Azure Cognitive Search ingestion
     - Part 2: Search examples 
