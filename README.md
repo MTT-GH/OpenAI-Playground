@@ -1,5 +1,5 @@
 
-# OpenAI-Playground (it has been moved to https://github.com/MTT-GH/OpenAI-Playground)!
+# OpenAI-Playground
 
 Please give a star to the repository to support the initiative :star:
 
