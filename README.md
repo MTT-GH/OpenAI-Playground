@@ -30,6 +30,9 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
     - Provide multiple messages (with roles), to the "ChatCompletion" call.
     - Pizza ordering Bot sample
 
+- [Azure Function calling with Azure Open AI - Simple](OpenAI/Function-Calling-Simple/working_with_functions.ipynb) taken & modified from [repo](https://github.com/Azure-Samples/openai/tree/main/Basic_Samples/Functions)
+
+
 ### Intermediate
 
 - [Speech Summarizing with OpenAI and Azure Speech AI](OpenAI/Speech-Summarize/Speech-summarizing.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
