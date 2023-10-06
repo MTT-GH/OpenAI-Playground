@@ -1,0 +1,12 @@
+# Packages needed to call AOAI API with the OpenAI Python API
+openai
+
+# Packages needed to run the notebook samples
+jupyter
+
+# Other packages needed to run the notebook samples
+json
+pytz
+pandas
+tenacity
+azure-search-documents==11.4.0b8

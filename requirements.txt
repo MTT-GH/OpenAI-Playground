@@ -21,3 +21,5 @@ azure-ai-vision
 langchain
 # azure
 azure-identity
+pytz
+tenacity
