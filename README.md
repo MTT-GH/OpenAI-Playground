@@ -44,7 +44,7 @@ The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLe
 
 - [Azure Computer Vision and Langchain](OpenAI/ComputerVision-Langchain/computer-vision-langchain.ipynb) taken and modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
 
-- **TODO, not finished** [Functions calling with Azure Open AI and Azure Search ]()  taken & modified from [repo](https://github.com/Azure-Samples/openai/tree/main/Basic_Samples/Functions)
+- [Functions calling with Azure Open AI and Azure Search ]()  taken & modified from [repo](https://github.com/Azure-Samples/openai/tree/main/Basic_Samples/Functions)
 
 
 ### Advanced
