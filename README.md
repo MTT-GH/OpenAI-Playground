@@ -11,24 +11,14 @@ Follow the instructions at [Getting Started](Getting_Started.md)
 
 ### Basics 
 
-The following demos are provided under the [DeepLearningAI-Course](OpenAI/DeepLearningAI-Course) folder. Demos are taken from the course provided at https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction . All Demos use **ChatCompletion** Endpoint. 
+- [Basic calls to the ChatCompletion Endpoint](OpenAI/Basics/Prompt-basics.ipynb). Following scenarios included:
+    
+    1. Generate content 
+    2. Summarizing
+    3. Inferring 
+    4. Transforming
+    5. Expanding
 
-- [Getting Started](OpenAI/DeepLearningAI-Course/l2-guidelines.ipynb)
-- [Iterative Prompts](OpenAI/DeepLearningAI-Course/l3-iterative-prompt-development.ipynb)
-    - Create Description from Product Fact Sheet (limit words, focus on aspects, add dimension, render into an HTML page)
-- [Summarizing](OpenAI/DeepLearningAI-Course/l4-summarizing.ipynb)
-    - Summarize various product reviews in a single prompt
-- [Inferring](OpenAI/DeepLearningAI-Course/l5-inferring.ipynb)
-    - Analyze text sentiment, emotions, identify anger (product review), extract product information, ...
-- [Transforming](OpenAI/DeepLearningAI-Course/l6-transforming.ipynb)
-    - Translate single and multiple languages, using different tones
-    - Format conversion (JSON to HTML)
-    - Grammar checks
-- [Expanding](OpenAI/DeepLearningAI-Course/l7-expanding.ipynb)
-    - Automate email reply to customers reviews
-- [ChatBot](OpenAI/DeepLearningAI-Course/l8-chatbot.ipynb)
-    - Provide multiple messages (with roles), to the "ChatCompletion" call.
-    - Pizza ordering Bot sample
 
 - [Azure Function calling with Azure Open AI - Simple](OpenAI/Function-Calling-Simple/working_with_functions.ipynb) taken & modified from [repo](https://github.com/Azure-Samples/openai/tree/main/Basic_Samples/Functions)
 
