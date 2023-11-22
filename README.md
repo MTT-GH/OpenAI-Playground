@@ -25,6 +25,7 @@ Follow the instructions at [Getting Started](Getting_Started.md)
 
 ### Intermediate
 - TODO VECTOR Search basics based on https://gist.github.com/pablocastro/90677135ddbd1f8a4783006f6e890edf
+      - VIDEO https://youtu.be/Xwx1DJ0OqCk 
 - [Speech Summarizing with OpenAI and Azure Speech AI](OpenAI/Speech-Summarize/Speech-summarizing.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
 - [Open AI and Azure Document Intelligence (Form Recognizer)](OpenAI/Document-Intelligence/Document-Intelligence.ipynb) taken & modified from [repo](https://github.com/retkowsky/Azure-OpenAI-demos/)
     - Use Form Recognizer for Image to Text, and use "text-davinci" AOAI model to summarize.
