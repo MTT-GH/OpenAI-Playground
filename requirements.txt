@@ -1,6 +1,6 @@
 jupyter
 ipykernel
-openai
+openai==1.5.0
 python-dotenv
 redlines
 panel
