@@ -1,0 +1,85 @@
+
+@openai-model-deployment=gpt-4-unai
+@api-version=2023-09-15-preview
+
+### Conversation simple request
+POST {{$processEnv AZURE_OPENAI_ENDPOINT}}/openai/deployments/{{openai-model-deployment}}/chat/completions?api-version={{api-version}}
+Content-Type: application/json
+api-key: {{$processEnv AZURE_OPENAI_API_KEY}}
+
+{
+  "messages":[
+    {"role": "system",
+     "content": "you are an AI that helps with Azure questions"},
+    {"role": "user",
+     "content": "Does Azure AI language support many languages"},
+    {"role": "assistant",
+     "content": "Yes"},
+    {"role": "user",
+     "content": "What Azure AI service can I use to translate?"}
+  ],
+  "max_tokens": 100
+}
+
+### System message sample
+POST {{$processEnv AZURE_OPENAI_ENDPOINT}}/openai/deployments/{{openai-model-deployment}}/chat/completions?api-version={{api-version}}
+Content-Type: application/json
+api-key: {{$processEnv AZURE_OPENAI_API_KEY}}
+
+{
+  "messages":[
+    {"role": "system",
+     "content": "You are an AI assistant that evaluates the input  based on the review given"},
+    {"role": "user",
+     "content": "Amazing food, great service, and a wonderful atmosphere"}
+  ],
+  "max_tokens": 100
+}
+
+### System message sample + few shot learning
+POST {{$processEnv AZURE_OPENAI_ENDPOINT}}/openai/deployments/{{openai-model-deployment}}/chat/completions?api-version={{api-version}}
+Content-Type: application/json
+api-key: {{$processEnv AZURE_OPENAI_API_KEY}}
+
+{
+  "messages":[
+    {"role": "system",
+     "content": "You are an AI assistant that evaluates the input  based on the review given"},
+    {"role": "user",
+     "content": "Amazing food, great service, and a wonderful atmosphere"},
+    {"role": "assistant",
+      "content": "Positive"},
+    {"role": "user",
+      "content": "The food was terrible, the service was bad, and the atmosphere was terrible"}
+  ],
+  "max_tokens": 100
+}
+
+### YOUR DATA - RAG - Azure Search 
+# url a bit different
+@indexName=custom-data-margiestravel
+POST {{$processEnv AZURE_OPENAI_ENDPOINT}}/openai/deployments/{{openai-model-deployment}}/extensions/chat/completions?api-version={{api-version}}
+Content-Type: application/json
+api-key: {{$processEnv AZURE_OPENAI_API_KEY}}
+
+{
+  "messages":[
+    {"role": "user",
+     "content": "Any recommendation for London?"}
+  ],
+  "temperature": 0,
+  "max_tokens": 800,
+  "stop": null,
+  "dataSources": [
+      {
+        "type": "AzureCognitiveSearch",
+          "parameters": {
+              "endpoint": "{{$processEnv AZURE_SEARCH_SERVICE_ENDPOINT}}",
+              "key": "{{$processEnv AZURE_SEARCH_ADMIN_KEY}}",
+              "indexName": "{{indexName}}",
+              "inScope": 1 
+          }
+      }
+    ]
+}
+
