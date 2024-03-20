@@ -1,0 +1,38 @@
+
+@openai-model-deployment= davinci-002
+
+### SIMPLE REQUEST
+POST {{$processEnv AZURE_OPENAI_ENDPOINT}}/openai/deployments/{{openai-model-deployment}}/completions?api-version=2023-09-15-preview
+Content-Type: application/json
+api-key: {{$processEnv AZURE_OPENAI_API_KEY}}
+
+{
+  "prompt": "Once upon a time",
+  "max_tokens": 100
+}
+
+### Stop Sequence TEST
+POST {{$processEnv AZURE_OPENAI_ENDPOINT}}/openai/deployments/{{openai-model-deployment}}/completions?api-version=2023-09-15-preview
+Content-Type: application/json
+api-key: {{$processEnv AZURE_OPENAI_API_KEY}}
+
+{
+  "prompt": "Spanish:Hola \n English:Hello \n French:",
+  "max_tokens": 100,
+  "stop": ["\n"] // Stop sequence
+}
+
+### Temperature TEST
+
+#temperature 0 (most relevant tokens used) same answer always 1 different answer
+POST {{$processEnv AZURE_OPENAI_ENDPOINT}}/openai/deployments/{{openai-model-deployment}}/completions?api-version=2023-09-15-preview
+Content-Type: application/json
+api-key: {{$processEnv AZURE_OPENAI_API_KEY}}
+
+{
+  "prompt": "Once upon a time",
+  "max_tokens": 50,
+  "temperature": 0
+}
+
+
